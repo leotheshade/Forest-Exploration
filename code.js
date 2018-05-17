@@ -60,8 +60,8 @@ function UpdatePos(){
   }
 
   document.getElementById("canvas").setAttribute("viewBox", "" +VTX + " " + VTY +" "+ VBX +" "+ VBY);
-  document.getElementById("player").setAttribute("x", px)
-  document.getElementById("player").setAttribute("y", py)
+  document.getElementById("player").setAttribute("x", PX)
+  document.getElementById("player").setAttribute("y", PY)
 
   requestAnimationFrame(UpdatePos)
 
